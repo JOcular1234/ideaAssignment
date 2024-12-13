@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --very-dark-desaturate-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue:hsl(213, 9%, 39%);
+    --dark-grayish-blue:hsl(232,10%,55%);
+    --grayish-blue:hsl(210, 4%, 67%);
+    --white:hsl(0, 0%, 100%);
+
+    --soft-red:(hsl(7, 99%,70%));
+    --yellow:hsl(51, 100%, 49%);
+    --dark-desaturated-cyan:hsl(167, 40%, 24%);
+    --dark-blue-text:hsl(198, 62%, 26%);
+    --dark-moderate-cyran-footer:hsl(168, 72%, 68%);
+}
+nav{
+    padding: 10px 0;
+    transition: all 1s;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    height: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white);  
+    transition: all .5s;   
+  }
+.logo-link{
+    margin: 20px;    
+    margin-right: auto;
+
+}
+.contact{
+    border: none;
+    background-color: var(--white);
+    border-radius: 40px;
+    color: var(--very-dark-desaturate-blue);
+    font-weight: 600;
+}
+.contact:hover{
+    background-color: transparent;
+    color: var(--white);
+}
+.first-container{
+    background-image: url(/images/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* margin-top: -140px; */
+}
+.text1{
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.second-container{
+    display: flex;
+    width: 100%;
+}
+.transform{
+    width: 50%;
+
+}
+.egg-container{
+    height: 100vh;
+    width: 50%;
+    background-image: url(/images/image-transform.jpg);
+}
+.text2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px;
+}
+.text3{
+    margin: 30px;
+    
+    display: flex;
+            justify-content: center; 
+            align-items: center;
+}
+.text4{
+    margin: 30px;
+}
+.text4 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.egg-containers{
+    height: 100vh;
+    width: 50%;
+    background-image: url(/images/image-stand-out.jpg);
+}
+.third-container{
+    display: flex;
+    width: 100%;
+}
+.graphics{
+    height: 100vh;
+    width: 50%;
+    background-image: url(/images/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.photography{
+    height: 100vh;
+    width: 50%;
+    background-image: url(/images/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.third-inner-div{
+    margin: 400px auto;
+    text-align: center;
+}
+.text5{
+    color: #000;
+    font-weight: 600;
+    font-size: 25px;
+}
+.text6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testimonial-container{
+    width: 100%;
+    background-color: var(--white);
+}
+.text7{
+    text-align: center;
+    color: var(--dark-grayish-blue);
+    font-size: 30px;
+    font-weight: 600;
+}
+.inner-testimonial{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+.testimonial1{
+    width: 50%;
+    height: 300px;
+}
+.imgs{
+    border-radius: 100%;
+    width: 100px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+.text8{
+    text-align: center;
+}
+.name{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 0 auto;
+}
+.occupation{
+    font-size: 10px;
+    color: var(--dark-grayish-blue);
+    text-align: center;
+}
+.forth-container{
+    width: 100%;
+}
+.forth-inner-container{
+    display: flex;
+}
+.photos1{
+    background-image: url(/images/image-gallery-milkbottles.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.photos2{
+    background-image: url(/images/image-gallery-orange.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.photos3{
+    background-image: url(/images/image-gallery-cone.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.photos4{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/image-gallery-sugarcubes.jpg);
+}
+.footer{
+    width: 100%;
+    background-color: var(--dark-moderate-cyran-footer);
+    border: 1px solid;
+    height: 200px;
+}
+.text9{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark-blue-text);
+}
+.footer-nav{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.footer-nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--dark-blue-text);
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
